@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BussinessObject.Status;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -31,6 +32,6 @@ namespace BussinessObject.Models
         public long ResidentId { get; set; }
         [ForeignKey("ResidentId")]
         public Resident Resident { get; set; }
-        public int Status { get; set; }
+        public InvoiceStatus Status { get; set; }
     }
 }

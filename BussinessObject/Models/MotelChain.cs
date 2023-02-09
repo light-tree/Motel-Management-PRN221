@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BussinessObject.Status;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,7 +15,7 @@ namespace BussinessObject.Models
         public long Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public int Status { get; set; }
+        public MotelChainStatus Status { get; set; }
         public long? ManagerId { get; set; }
 
         [ForeignKey("Id")]

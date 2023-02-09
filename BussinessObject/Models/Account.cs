@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BussinessObject.Status;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -15,6 +16,6 @@ namespace BussinessObject.Models
         public string Password { get; set; }
         public string IdentityCardNumber { get; set; }
         public string FullName { get; set; }
-        public int Status { get; set; }
+        public AccountStatus Status { get; set; }
     }
 }
