@@ -13,11 +13,13 @@ namespace BussinessObject.Models
     {
         [Key]
         public long Id { get; set; }
-        public int ElectricityConsumption { get; set; }
+        public int ElectricityConsumptionStart { get; set; }
+        public int ElectricityConsumptionEnd { get; set; }
         public long ElectricityCostId { get; set; }
         [ForeignKey("ElectricityCostId")]
         public ElectricityCost ElectricityCost { get; set; }
-        public int WaterConsumption { get; set; }
+        public int WaterConsumptionStart { get; set; }
+        public int WaterConsumptionEnd { get; set; }
         public long WaterCostId { get; set; }
         [ForeignKey("WaterCostId")]
         public WaterCost WaterCost { get; set; }

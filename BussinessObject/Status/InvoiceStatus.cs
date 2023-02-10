@@ -8,6 +8,6 @@ namespace BussinessObject.Status
 {
     public enum InvoiceStatus
     {
-        NOT_PAID_YET, PAID, LATE, LATE_AND_NOT_PAID_YET_AND_NOT_INFORMED, LATE_AND_NOT_PAID_YET_AND_INFORMED
+        NOT_PAID_YET, PAID, LATE
     }
 }

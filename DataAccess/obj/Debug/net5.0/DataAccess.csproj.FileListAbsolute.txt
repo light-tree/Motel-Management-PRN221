@@ -1,0 +1,15 @@
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\bin\Debug\net5.0\BussinessObject.dll
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\bin\Debug\net5.0\BussinessObject.pdb
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\ptl01\Desktop\_syllabus\Semester7\prn221\project\MotelManagement\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

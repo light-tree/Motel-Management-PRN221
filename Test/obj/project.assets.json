@@ -1494,6 +1494,19 @@
         "runtime": {
           "bin/placeholder/BussinessObject.dll": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BussinessObject": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
       }
     }
   },
@@ -5711,11 +5724,17 @@
       "type": "project",
       "path": "../BussinessObject/BussinessObject.csproj",
       "msbuildProject": "../BussinessObject/BussinessObject.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BussinessObject >= 1.0.0"
+      "BussinessObject >= 1.0.0",
+      "DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5747,6 +5766,9 @@
           "projectReferences": {
             "C:\\Users\\ptl01\\Desktop\\_syllabus\\Semester7\\prn221\\project\\MotelManagement\\BussinessObject\\BussinessObject.csproj": {
               "projectPath": "C:\\Users\\ptl01\\Desktop\\_syllabus\\Semester7\\prn221\\project\\MotelManagement\\BussinessObject\\BussinessObject.csproj"
+            },
+            "C:\\Users\\ptl01\\Desktop\\_syllabus\\Semester7\\prn221\\project\\MotelManagement\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ptl01\\Desktop\\_syllabus\\Semester7\\prn221\\project\\MotelManagement\\DataAccess\\DataAccess.csproj"
             }
           }
         }

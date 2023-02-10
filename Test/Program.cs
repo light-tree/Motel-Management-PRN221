@@ -1,6 +1,7 @@
 ﻿using BussinessObject.Data;
 using BussinessObject.Models;
 using BussinessObject.Status;
+using DataAccess.Repository;
 using System;
 using System.Linq;
 
@@ -10,18 +11,21 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            IManagerRepo managerRepo;
             try
             {
                 Manager manager = new Manager();
                 manager.FullName = "1";
-                manager.Status = 1;
+                manager.Status = AccountStatus.ACTIVE;
                 manager.IdentityCardNumber = "123456789012";
                 manager.UserName = "1";
                 manager.Password = "1";
 
-                Context context = new Context();
-                context.Managers.Add(manager);
-                context.SaveChanges();
+                //managerRepo.AddManager(manager);
+
+                //Context context = new Context();
+                //context.Managers.Add(manager);
+                //context.SaveChanges();
             }
             catch (Exception ex)
             {
