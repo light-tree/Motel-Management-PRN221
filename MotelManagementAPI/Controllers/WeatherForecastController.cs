@@ -1,4 +1,5 @@
-﻿using BussinessObject.Models;
+﻿using BussinessObject.Data;
+using BussinessObject.Models;
 using BussinessObject.Status;
 using DataAccess.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +15,6 @@ namespace MotelManagementAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        IManagerRepo managerRepo;
 
         private static readonly string[] Summaries = new[]
         {
@@ -23,23 +23,27 @@ namespace MotelManagementAPI.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+
+        IManagerRepo managerRepo;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IManagerRepo managerRepo)
         {
             _logger = logger;
+            this.managerRepo = managerRepo;
         }
 
-        [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
-        }
+        //[HttpGet]
+        //public IEnumerable<WeatherForecast> Get()
+        //{
+        //    var rng = new Random();
+        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        //    {
+        //        Date = DateTime.Now.AddDays(index),
+        //        TemperatureC = rng.Next(-20, 55),
+        //        Summary = Summaries[rng.Next(Summaries.Length)]
+        //    })
+        //    .ToArray();
+        //}
 
         [HttpGet]
         public string Test()

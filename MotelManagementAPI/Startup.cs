@@ -31,8 +31,9 @@ namespace MotelManagementAPI
 
             services.AddControllers();
             services.AddDbContext<Context>();
-            services.AddSingleton<IManagerRepo, ManagerRepo>();
-            services.AddSingleton<ManagerDAO>();
+            //services.AddSingleton<IManagerRepo, ManagerRepo>();
+            services.AddScoped<IManagerRepo, ManagerRepo>();
+            //services.AddScoped<ManagerDAO>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MotelManagementAPI", Version = "v1" });

@@ -10,11 +10,17 @@ namespace DataAccess.DAO
 {
     public class ManagerDAO
     {
-        Context context;
-        public void AddManager(Manager manager)
-        {
-            context.Add(manager);
-            context.SaveChanges();
-        }
+        //Context context;
+
+        //public ManagerDAO(Context context)
+        //{
+        //    this.context = context;
+        //}
+
+        //public void AddManager(Manager manager)
+        //{
+        //    context.Add(manager);
+        //    context.SaveChanges();
+        //}
     }
 }

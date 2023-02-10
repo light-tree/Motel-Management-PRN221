@@ -1,4 +1,5 @@
-﻿using BussinessObject.Models;
+﻿using BussinessObject.Data;
+using BussinessObject.Models;
 using DataAccess.DAO;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,17 @@ namespace DataAccess.Repository
 {
     public class ManagerRepo : IManagerRepo
     {
-        ManagerDAO managerDAO;
+        Context context;
+
+        public ManagerRepo(Context context)
+        {
+            this.context = context;
+        }
+
         public void AddManager(Manager manager)
         {
-            managerDAO.AddManager(manager);
+            context.Add(manager);
+            context.SaveChanges();
         }
     }
 }
